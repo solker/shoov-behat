@@ -1,9 +1,9 @@
 env:
   # GitHub username
-  - secure: "23a7e0b8145347540564c934cdd62fbe8161a599f5bdce6c7ba6433b8a8c6a779b4a"
+  - secure: "f14b9cdbd14039ea3b230becca0c15d7ac47cc6aee31e356a7a71a0f7b2376b1e304"
 
   # GitHub password
-  - secure: "23a7e0b8145347540564c934cdd33da88078ab86f4bdee6b79ac67739f85757ab2579ec4a389855b"
+  - secure: "f14b9cdbd14039ea3b230becca0907c1ad5ec275ef31c351a5ad3e476e2a69bcca19a7dc3161749f"
 
 before_script:
   - cd behat
