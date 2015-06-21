@@ -4,7 +4,7 @@
 
 #   # GitHub password
 #   - secure: "f14b9cdbd14039ea3b230becca0907c1ad5ec275ef31c351a5ad3e476e2a69bcca19a7dc3161749f"
-
+Anekdoti u vasi doma; :D
 # before_script:
 #   - cd behat
 #   # Instead of composer install, we save time by getting
