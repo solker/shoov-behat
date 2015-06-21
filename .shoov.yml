@@ -1,20 +1,20 @@
-env:
-  # GitHub username
-  - secure: "f14b9cdbd14039ea3b230becca0c15d7ac47cc6aee31e356a7a71a0f7b2376b1e304"
+# env:
+#   # GitHub username
+#   - secure: "f14b9cdbd14039ea3b230becca0c15d7ac47cc6aee31e356a7a71a0f7b2376b1e304"
 
-  # GitHub password
-  - secure: "f14b9cdbd14039ea3b230becca0907c1ad5ec275ef31c351a5ad3e476e2a69bcca19a7dc3161749f"
+#   # GitHub password
+#   - secure: "f14b9cdbd14039ea3b230becca0907c1ad5ec275ef31c351a5ad3e476e2a69bcca19a7dc3161749f"
 
-before_script:
-  - cd behat
-  # Instead of composer install, we save time by getting
-  # a gzipped file with the vendor and bin directories.
-  - tar zxf behat-vendor.tar.gz
-  - cp behat.local.yml.example behat.local.yml
+# before_script:
+#   - cd behat
+#   # Instead of composer install, we save time by getting
+#   # a gzipped file with the vendor and bin directories.
+#   - tar zxf behat-vendor.tar.gz
+#   - cp behat.local.yml.example behat.local.yml
 
-script:
-  - ./bin/behat --tags=~wip
+# script:
+#   - ./bin/behat --tags=~wip
 
-# addons:
-#   - selenium
+# # addons:
+# #   - selenium
 
